@@ -5,7 +5,7 @@
 #   Write a program that inputs a name and replies with an attitude.
 #############################################################################
 # Your Output should be like this:
-# What is your name? Grok
-# So you call yourself 'Grok' huh?
+# What is your name? Alex
+# So you call yourself 'Alex' huh?
 #############################################################################
 

@@ -9,6 +9,7 @@
 #   brave
 #############################################################################
 # Your Output should be like this:
+
 # Friend: Tony
 # Friend: Thor
 # Friend: Steve
@@ -17,3 +18,10 @@
 # Hello, brave Steve
 #############################################################################
 
+friend_1 = input("Friend: ")
+friend_2 = input("Friend: ")
+friend_3 = input("Friend: ")
+
+print("Hello, young", friend_1)
+print("Hello, wise", friend_2)
+print("Hello, brave", friend_3)
