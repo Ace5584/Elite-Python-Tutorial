@@ -13,5 +13,6 @@
 # ^___^
 #############################################################################
 
-number = int(input("Enter a number: "))
-print("^" + "_"*number + "^")
+num = int(input("Enter a number: "))
+print("^" + "_" * num + "^")
+

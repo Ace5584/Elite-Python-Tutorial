@@ -12,6 +12,7 @@
 # 4
 #############################################################################
 
-enteredText = input("Enter text: ")
-print(len(enteredText))
+string = input("Enter text: ")
+print(len(string))
+
 

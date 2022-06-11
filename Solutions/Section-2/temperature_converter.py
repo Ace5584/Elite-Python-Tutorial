@@ -1,14 +1,12 @@
-# This program will convert user's inputted temperature in celsius to fahrenheit
-# And then after that, this program will require another input from the user that will convert
-# the inputted temperature in fahrenheit to celsius
+# Temperature Converter
+# The program will convert Celsius to Fahrenheit according to what the user enters
+# The program will then take another input that will convert Fahrenheit to Celsius
 
-inputTemp_1 = int(input("Enter the temperature in degree Celsius: "))
-tempC_1 = inputTemp_1
-tempF_1 = (tempC_1 * 9/5) + 32
-print("The temperature is", tempF_1, "degree Fahrenheit")
+firstTemp = int(input("Enter a temperature to convert from Celsius to Fahrenheit: "))
+firstResult = (firstTemp * 9//5) + 32
+print(firstResult, "degrees Fahrenheit")
 
-inputTemp_2 = int(input("Enter the temperature in degree Fahrenheit: "))
-tempF_2 = inputTemp_2
-tempC_2 = (tempF_2 - 32) * 5/9
-print("The temperature is", tempC_2, "degree Celsius")
+secondTemp = int(input("Enter a temperature to convert from Fahrenheit to Celsius: "))
+secondResult = (secondTemp - 32) * 5//9
+print(secondResult, "degrees Celsius")
 

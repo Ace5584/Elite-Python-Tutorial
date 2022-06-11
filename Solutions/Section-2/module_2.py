@@ -11,8 +11,6 @@
 # 39
 #############################################################################
 
-firstNumber = int(input("Please enter the first number: "))
-secondNumber = int(input("Please enter the second number: "))
-
-combined = firstNumber * secondNumber
-print(combined)
+firstNum = int(input("Please enter the first number: "))
+secondNum = int(input("Please enter the second number: "))
+print(firstNum * secondNum)

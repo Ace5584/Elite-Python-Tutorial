@@ -11,9 +11,8 @@
 # spamspamspamspamspam
 #############################################################################
 
-userString = input("What do you want me to say? ")
-userNum = int(input("How many times do you want me to say it? "))
-output = userString * userNum
+statement = input("What do you want me to say? ")
+num = int(input("How many times do you want me to say it? "))
+print(num * statement)
 
-print(output)
 
