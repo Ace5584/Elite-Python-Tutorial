@@ -1,4 +1,4 @@
-# Section 2 Module 3
+# Section 3 Module 2
 # [Access Denied]
 #############################################################################
 # Task Description:
@@ -13,4 +13,11 @@
 # Enter password: Hello
 # Access denied
 #############################################################################
+
+password = input("Enter Password: ")
+if password == "Ab32kss92l":
+    print("Access granted")
+else:
+    print("Access denied")
+
 

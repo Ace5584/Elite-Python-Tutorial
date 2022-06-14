@@ -1,4 +1,4 @@
-# Section 2 Module 3
+# Section 3 Module 3 Part 2
 # [Transport Guide]
 #############################################################################
 # Task Description:
@@ -15,10 +15,31 @@
 #
 #############################################################################
 # Your Output should be like this:
-# Number: 69
-# You're fine :)
+# Is it currently raining? Yes
+# You should take the bus.
 
-# Number: -2
-# You're broke :(
+# Is it currently raining? No
+# How far in km do you need to travel? 8
+# You should ride your bike.
+
+# Is it currently raining? No
+# How far in km do you need to travel? 1
+# You should walk.
 #############################################################################
+
+raining = input("Is it currently raining? ")
+if raining == "Yes":
+    print("You should take the bus. ")
+elif raining == "No":
+    travelDistance = float(input("How far in km do you need to travel? "))
+    if travelDistance < 2:
+        print("You should walk")
+    elif 2 <= travelDistance <= 10:
+        print("You should ride your bike")
+    elif travelDistance > 10:
+        print("You should take the bus. ")
+    else:
+        print("Please enter a valid distance")
+else:
+    print("Please specify your inputs to be Yes or No (Case sensitive)")
 

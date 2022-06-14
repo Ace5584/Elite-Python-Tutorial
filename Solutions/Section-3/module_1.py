@@ -1,4 +1,4 @@
-# Section 2 Module 3
+# Section 3 Module 1
 # [Open the door!]
 #############################################################################
 # Task Description:
@@ -12,3 +12,10 @@
 # What is the password? Open the door!
 #
 #############################################################################
+
+password = input("What is the password? ")
+if password == "Please":
+    print("The door opens!")
+
+
+

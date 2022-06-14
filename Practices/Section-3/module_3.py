@@ -1,4 +1,4 @@
-# Section 2 Module 3
+# Section 3 Module 3
 # [You're Broke!]
 #############################################################################
 # Task Description:

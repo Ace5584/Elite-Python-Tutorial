@@ -1,4 +1,4 @@
-# Section 2 Module 3
+# Section 3 Module 1
 # [Open the door!]
 #############################################################################
 # Task Description:
