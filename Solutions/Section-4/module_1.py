@@ -13,3 +13,9 @@
 # Enter Sentence: Nothing here
 # Aliens does not exist :(
 #############################################################################
+
+sentence = input("Enter a sentence: ")
+if "alien" in sentence:
+    print("Aliens! ")
+else:
+    print("Aliens does not exist :( ")

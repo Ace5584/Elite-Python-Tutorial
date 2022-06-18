@@ -13,3 +13,5 @@
 # Quiet: learning python is so fun!
 #############################################################################
 
+loud = input("Loud: ")
+print(loud.lower())
