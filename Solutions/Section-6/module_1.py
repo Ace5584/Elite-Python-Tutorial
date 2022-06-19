@@ -17,3 +17,14 @@
 # Operation: /
 # 1.0
 #############################################################################
+
+firstNum = float(input("First Number: "))
+SecondNum = float(input("Second Number: "))
+operator = input("Operation: ")
+
+if operator == "/":
+    print(firstNum / SecondNum)
+elif operator == "*":
+    print(firstNum * SecondNum)
+else:
+    print("Please enter a valid operator (/ or *)")
