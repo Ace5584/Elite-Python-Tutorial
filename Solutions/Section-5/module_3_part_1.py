@@ -12,3 +12,11 @@
 # Message? pbaynatnahproarnsm
 # p y t h o n
 #############################################################################
+
+msg = input("Message? ")
+decoded = ""
+for i in range(0, len(msg), 3):
+    decoded = decoded + msg[i] + " "
+
+decoded = decoded.rstrip()
+print(decoded)

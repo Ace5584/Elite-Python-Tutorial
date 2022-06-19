@@ -12,3 +12,10 @@
 # Line: HeLLo ThErE!
 # !ErEhT oLLeH
 #############################################################################
+
+msg = input("Line: ")
+reversed = ""
+for i in range(len(msg)-1, -1, -1):
+    reversed = reversed + msg[i]
+print(reversed)
+

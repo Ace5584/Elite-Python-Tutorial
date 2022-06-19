@@ -5,7 +5,8 @@
 # You will write a program that loops through the chant that the user inputs
 # and then add "Give me a " to the front of each letter that is being looped
 # and repeat the letter after that again with a "!". Then, after you loop
-# through the entire thing, repeat the word in all caps. Example shown below
+# through the entire thing, print "What does it spell? Then repeat the word
+# in all caps. Example shown below
 #############################################################################
 # Your Output should be like this:
 # Cheer: gryffindor
@@ -31,3 +32,4 @@
 # What does it spell?
 # HELLO
 #############################################################################
+
