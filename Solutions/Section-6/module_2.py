@@ -13,3 +13,9 @@
 # Number of days without rain: 6
 #############################################################################
 
+days = input("Which days was raining? ")
+lsDays = days.split(" ")
+noRain = 7 - len(lsDays)
+print("Number of days without rain:", noRain)
+
+

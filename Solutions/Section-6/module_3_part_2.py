@@ -13,3 +13,10 @@
 # Total: $115
 #############################################################################
 
+data = input("Enter the expenses: ")
+expenses = data.split(" ")
+total = 0
+for expense in expenses:
+    total = total + int(expense)
+print("Total: $" + str(total))
+

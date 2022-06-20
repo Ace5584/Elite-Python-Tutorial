@@ -2,8 +2,8 @@
 # [Class Roll]
 #############################################################################
 # Task Description:
-#   A class role will be entered with a space separating each name. starting,
-#   then you want to print out a sorted role with the title of Class Roll.
+#   A class role will be entered with a space separating each name.
+#   Then you want to print out a sorted role with the title of Class Roll.
 #   Example is show below
 #############################################################################
 # Your Output should be like this:
@@ -15,4 +15,11 @@
 # Macy
 # Peng
 #############################################################################
+
+data = input("Students: ")
+students = data.split(" ")
+students.sort()
+print("Class Roll")
+for student in students:
+    print(student)
 
