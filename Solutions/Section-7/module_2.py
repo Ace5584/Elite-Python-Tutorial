@@ -16,3 +16,21 @@
 # You guessed it! Buzzzz
 #############################################################################
 
+# Solution Number 1:
+# print("What is my favourite food? ")
+# answer = input("Guess? ")
+# while answer:
+#     if answer == "electricity":
+#         print("You guessed it! Buzzzz")
+#         break
+#     else:
+#         print("Not even close. ")
+#     answer = input("Guess? ")
+
+print("What is my favourite food? ")
+answer = input("Guess? ")
+while answer != "electricity":
+    print("Not even close. ")
+    answer = input("Guess? ")
+print("You guessed it! Buzzzz")
+

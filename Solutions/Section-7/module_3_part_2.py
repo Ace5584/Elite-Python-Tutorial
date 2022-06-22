@@ -20,3 +20,21 @@
 # Level 2
 #############################################################################
 
+current = int(input("Current floor: "))
+destination = int(input("Destination floor: "))
+difference = current - destination
+# If difference is a positive value EG:
+#   2 - 1 = 1
+#   down
+# If difference is a negative value EG:
+#   1 - 2 = -1
+#   up
+if difference > 0:
+    while destination <= current:
+        print("Level ", current)
+        current -= 1
+elif difference < 0:
+    while destination >= current:
+        print("Level ", current)
+        current += 1
+

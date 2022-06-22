@@ -1,18 +1,29 @@
 # Section 7 Module 3 Part 1
-# [Class Roll]
+# [Stairs]
 #############################################################################
 # Task Description:
-#   A class role will be entered with a space separating each name. starting,
-#   then you want to print out a sorted role with the title of Class Roll.
-#   Example is show below
+#   Write a program that asks the user how many steps and then create stairs
+#   with the user's input, example shown below. The input will only be a
+#   positive integer
 #############################################################################
 # Your Output should be like this:
-# Students: Peng Ivan Alan Jodi Macy
-# Class Roll
-# Alan
-# Ivan
-# Jodi
-# Macy
-# Peng
+# How many steps? 4
+# __
+#   |_
+#     |_
+#       |_
+# ________|
+
+# How many steps? 1
+# __
+# __|
 #############################################################################
+
+steps = int(input("How many steps? "))
+print("__")
+i = 1
+while i < steps:
+    print("  "*i + "|_")
+    i += 1
+print("__"*steps + "|")
 

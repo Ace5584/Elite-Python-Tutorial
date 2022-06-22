@@ -20,3 +20,11 @@
 # 1 ...
 # Lift Off!
 #############################################################################
+
+time = int(input("Time to launch: "))
+print("Counting down ...")
+while time > 0:
+    print(time, "...")
+    time = time - 1
+print("Lift Off! ")
+
