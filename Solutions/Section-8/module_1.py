@@ -27,3 +27,20 @@
 # You know 1 unique word(s)!
 #############################################################################
 
+words = []
+
+word = input("Word: ")
+words.append(word)
+while word:
+    word = input("Word: ")
+    words.append(word)
+words.remove('')
+
+newWords = []
+for i in words:
+    if i not in newWords:
+        newWords.append(i)
+
+uniqueWords = len(newWords)
+print(newWords)
+print("You know", uniqueWords, "unique word(s)!")

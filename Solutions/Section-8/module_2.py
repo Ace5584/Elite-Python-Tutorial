@@ -21,4 +21,16 @@
 # blue: 1
 #############################################################################
 
+cars = input("Cars: ")
+cars = cars.split(" ")
+red = 0
+blue = 0
+for car in cars:
+    if car == "red":
+        red += 1
+    elif car == "blue":
+        blue += 1
+
+print("red:", red)
+print("blue:", blue)
 

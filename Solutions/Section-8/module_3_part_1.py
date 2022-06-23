@@ -16,3 +16,17 @@
 # decoded: destroy their ice-cream supplies
 #############################################################################
 
+code = input("code: ")
+
+lsCode = code.split(" ")
+lsCode = lsCode[::-1]
+final = []
+
+for i in lsCode:
+    if i[0].isupper():
+        final.append(i.lower())
+
+print(" ".join(final))
+
+
+
